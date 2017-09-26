@@ -1,0 +1,18 @@
+{
+  "update_id": 1,
+  "chosen_inline_result": {
+    "result_id": "123",
+    "from": {
+      "id": 427770117,
+      "first_name": "user_first",
+      "last_name": "user_last",
+      "language_code": "en"
+    },
+    "location": {
+      "longitude": "111.111",
+      "latitude": "99.99"
+    },
+    "inline_message_id": "321",
+    "query": "query"
+  }
+}

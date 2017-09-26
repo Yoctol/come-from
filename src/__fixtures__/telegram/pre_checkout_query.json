@@ -1,0 +1,30 @@
+{
+  "update_id": 1,
+  "pre_checkout_query": {
+    "id": "123",
+    "from": {
+      "id": 427770117,
+      "first_name": "user_first",
+      "last_name": "user_last",
+      "language_code": "en"
+    },
+    "currency": "USD",
+    "total_amount": 145,
+    "invoice_payload": "Bot specified invoice payload",
+    "shipping_option_id":
+      "Identifier of the shipping option chosen by the user",
+    "order_info": {
+      "name": "User name",
+      "phone_number": "User's phone number",
+      "email": "User email",
+      "shipping_address": {
+        "country_code": "us",
+        "state": "CA",
+        "city": "San Francisco",
+        "street_line1": "First line for the address",
+        "street_line2": "Second line for the address",
+        "post_code": "666"
+      }
+    }
+  }
+}

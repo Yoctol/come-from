@@ -1,0 +1,36 @@
+{
+  "update_id": 1,
+  "message": {
+    "message_id": 666,
+    "from": {
+      "id": 313534466,
+      "first_name": "first",
+      "last_name": "last",
+      "username": "username",
+      "language_code": "en"
+    },
+    "chat": {
+      "id": 427770117,
+      "first_name": "first",
+      "last_name": "last",
+      "type": "private"
+    },
+    "date": 1499402829,
+    "game": {
+      "title": "game title",
+      "description": "Description of the game",
+      "photo": [
+        {
+          "file_id": "112",
+          "width": 100,
+          "height": 100
+        },
+        {
+          "file_id": "116",
+          "width": 50,
+          "height": 50
+        }
+      ]
+    }
+  }
+}
