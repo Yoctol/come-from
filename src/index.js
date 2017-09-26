@@ -1,3 +1,10 @@
+function isMessenger(body) {
+  if (typeof body.object === 'string' && Array.isArray(body.entry)) {
+    return true;
+  }
+  return false;
+}
+
 function isLine(body) {
   if (
     body.type === 'message' ||
@@ -41,12 +48,25 @@ function isSlack(body) {
   return false;
 }
 
+function isTelegram(body) {
+  if (typeof body.update_id === 'number') {
+    return true;
+  }
+  return false;
+}
+
 module.exports = body => {
+  if (isMessenger(body)) {
+    return 'messenger';
+  }
   if (isLine(body)) {
     return 'line';
   }
   if (isSlack(body)) {
     return 'slack';
   }
-  return 'messenger';
+  if (isTelegram(body)) {
+    return 'telegram';
+  }
+  return 'unknown';
 };
