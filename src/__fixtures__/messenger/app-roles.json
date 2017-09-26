@@ -1,0 +1,20 @@
+{
+  "object": "page",
+  "entry": [
+    {
+      "id": "PAGE_ID",
+      "time": 1473208792799,
+      "messaging": [
+        {
+          "recipient": {
+            "id": "<PAGE_ID>"
+          },
+          "timestamp": 1458692752478,
+          "app_roles": {
+            "123456789": ["primary_receiver"]
+          }
+        }
+      ]
+    }
+  ]
+}

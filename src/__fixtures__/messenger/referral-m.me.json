@@ -1,0 +1,25 @@
+{
+  "object": "page",
+  "entry": [
+    {
+      "id": "PAGE_ID",
+      "time": 1473208792799,
+      "messaging": [
+        {
+          "sender": {
+            "id": "<USER ID>"
+          },
+          "recipient": {
+            "id": "<PAGE ID>"
+          },
+          "timestamp": 1458692752478,
+          "referral": {
+            "ref": {},
+            "source": "SHORTLINK",
+            "type": "OPEN_THREAD"
+          }
+        }
+      ]
+    }
+  ]
+}
