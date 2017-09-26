@@ -1,0 +1,16 @@
+{
+  "token": "XXYYZZ",
+  "team_id": "TXXXXXXXX",
+  "api_app_id": "AXXXXXXXXX",
+  "event": {
+    "type": "file_comment_deleted",
+    "comment": "Fc67890",
+    "file_id": "F2147483862",
+    "file": {
+      "id": "F2147483862"
+    }
+  },
+  "type": "event_callback",
+  "event_id": "EvXXXXXXXX",
+  "event_time": 1234567890
+}
