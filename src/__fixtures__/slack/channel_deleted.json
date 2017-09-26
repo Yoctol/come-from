@@ -1,0 +1,12 @@
+{
+  "token": "XXYYZZ",
+  "team_id": "TXXXXXXXX",
+  "api_app_id": "AXXXXXXXXX",
+  "event": {
+    "type": "channel_deleted",
+    "channel": "C024BE91L"
+  },
+  "type": "event_callback",
+  "event_id": "EvXXXXXXXX",
+  "event_time": 1234567890
+}

@@ -1,0 +1,16 @@
+{
+  "token": "XXYYZZ",
+  "team_id": "TXXXXXXXX",
+  "api_app_id": "AXXXXXXXXX",
+  "event": {
+    "type": "group_rename",
+    "channel": {
+      "id": "G02ELGNBH",
+      "name": "new_name",
+      "created": 1360782804
+    }
+  },
+  "type": "event_callback",
+  "event_id": "EvXXXXXXXX",
+  "event_time": 1234567890
+}

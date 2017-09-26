@@ -1,0 +1,13 @@
+{
+  "token": "XXYYZZ",
+  "team_id": "TXXXXXXXX",
+  "api_app_id": "AXXXXXXXXX",
+  "event": {
+    "type": "team_domain_change",
+    "url": "https://my.slack.com",
+    "domain": "my"
+  },
+  "type": "event_callback",
+  "event_id": "EvXXXXXXXX",
+  "event_time": 1234567890
+}

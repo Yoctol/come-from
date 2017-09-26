@@ -1,0 +1,13 @@
+{
+  "token": "XXYYZZ",
+  "team_id": "TXXXXXXXX",
+  "api_app_id": "AXXXXXXXXX",
+  "event": {
+    "type": "im_created",
+    "user": "U024BE7LH",
+    "channel": {}
+  },
+  "type": "event_callback",
+  "event_id": "EvXXXXXXXX",
+  "event_time": 1234567890
+}

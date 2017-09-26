@@ -1,0 +1,14 @@
+{
+  "token": "XXYYZZ",
+  "team_id": "TXXXXXXXX",
+  "api_app_id": "AXXXXXXXXX",
+  "event": {
+    "type": "group_history_changed",
+    "latest": "1358877455.000010",
+    "ts": "1361482916.000003",
+    "event_ts": "1361482916.000004"
+  },
+  "type": "event_callback",
+  "event_id": "EvXXXXXXXX",
+  "event_time": 1234567890
+}
