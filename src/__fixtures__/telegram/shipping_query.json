@@ -1,0 +1,25 @@
+{
+  "update_id": 1,
+  "shipping_query": {
+    "id": "123",
+    "from": {
+      "id": 427770117,
+      "first_name": "user_first",
+      "last_name": "user_last",
+      "language_code": "en"
+    },
+    "location": {
+      "longitude": "111.111",
+      "latitude": "99.99"
+    },
+    "invoice_payload": "Bot specified invoice payload",
+    "shipping_address": {
+      "country_code": "us",
+      "state": "CA",
+      "city": "San Francisco",
+      "street_line1": "First line for the address",
+      "street_line2": "Second line for the address",
+      "post_code": "666"
+    }
+  }
+}

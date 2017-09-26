@@ -1,0 +1,30 @@
+{
+  "update_id": 1,
+  "edited_message": {
+    "id": "123",
+    "from": {
+      "id": 427770117,
+      "first_name": "user_first",
+      "last_name": "user_last",
+      "language_code": "en"
+    },
+    "message": {
+      "message_id": 666,
+      "from": {
+        "id": 313534466,
+        "first_name": "bot_first",
+        "username": "bot_name"
+      },
+      "chat": {
+        "id": 427770117,
+        "first_name": "first",
+        "last_name": "last",
+        "type": "private"
+      },
+      "date": 1499402829,
+      "text": "text"
+    },
+    "chat_instance": "-1828607021492040088",
+    "data": "data"
+  }
+}
