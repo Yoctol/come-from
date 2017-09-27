@@ -1,14 +1,13 @@
 {
   "name": "come-from",
   "version": "0.0.1",
-  "description": "",
+  "description": "Determine where the message come from",
   "main": "src/index.js",
   "scripts": {
     "test": "jest"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": ["message", "bot"],
+  "license": "MIT",
   "devDependencies": {
     "jest": "^21.1.0"
   }
