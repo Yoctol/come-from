@@ -6,21 +6,24 @@ function isMessenger(body) {
 }
 
 function isLine(body) {
-  if (
-    body.type === 'message' ||
-    body.type === 'follow' ||
-    body.type === 'unfollow' ||
-    body.type === 'join' ||
-    body.type === 'leave' ||
-    body.type === 'postback' ||
-    body.type === 'beacon'
-  ) {
+  if (body.events) {
+    const [event] = body.events;
     if (
-      body.source &&
-      typeof body.source === 'object' &&
-      typeof body.source.type === 'string'
+      event.type === 'message' ||
+      event.type === 'follow' ||
+      event.type === 'unfollow' ||
+      event.type === 'join' ||
+      event.type === 'leave' ||
+      event.type === 'postback' ||
+      event.type === 'beacon'
     ) {
-      return true;
+      if (
+        event.source &&
+        typeof event.source === 'object' &&
+        typeof event.source.type === 'string'
+      ) {
+        return true;
+      }
     }
   }
 
